@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DDCC1FB297DD6B0009E19C8 /* Get AQI Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 3DDCC1FA297DD6B0009E19C8 /* Get AQI Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		3DDCC200297DD6B0009E19C8 /* Get_AQIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCC1FF297DD6B0009E19C8 /* Get_AQIApp.swift */; };
+		3DDCC202297DD6B0009E19C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCC201297DD6B0009E19C8 /* ContentView.swift */; };
+		3DDCC204297DD6B2009E19C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DDCC203297DD6B2009E19C8 /* Assets.xcassets */; };
+		3DDCC207297DD6B2009E19C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DDCC206297DD6B2009E19C8 /* Preview Assets.xcassets */; };
+		3DDCC211297DD6B2009E19C8 /* Get_AQI_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCC210297DD6B2009E19C8 /* Get_AQI_Watch_AppTests.swift */; };
+		3DDCC21B297DD6B2009E19C8 /* Get_AQI_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCC21A297DD6B2009E19C8 /* Get_AQI_Watch_AppUITests.swift */; };
+		3DDCC21D297DD6B2009E19C8 /* Get_AQI_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDCC21C297DD6B2009E19C8 /* Get_AQI_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DDCC1FC297DD6B0009E19C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DDCC1EE297DD6AF009E19C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DDCC1F9297DD6B0009E19C8;
+			remoteInfo = "Get AQI Watch App";
+		};
+		3DDCC20D297DD6B2009E19C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DDCC1EE297DD6AF009E19C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DDCC1F9297DD6B0009E19C8;
+			remoteInfo = "Get AQI Watch App";
+		};
+		3DDCC217297DD6B2009E19C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DDCC1EE297DD6AF009E19C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DDCC1F9297DD6B0009E19C8;
+			remoteInfo = "Get AQI Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3DDCC223297DD6B3009E19C8 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				3DDCC1FB297DD6B0009E19C8 /* Get AQI Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3DDCC1F4297DD6B0009E19C8 /* Get AQI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get AQI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DDCC1FA297DD6B0009E19C8 /* Get AQI Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Get AQI Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DDCC1FF297DD6B0009E19C8 /* Get_AQIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_AQIApp.swift; sourceTree = "<group>"; };
+		3DDCC201297DD6B0009E19C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3DDCC203297DD6B2009E19C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DDCC206297DD6B2009E19C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DDCC20C297DD6B2009E19C8 /* Get AQI Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Get AQI Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DDCC210297DD6B2009E19C8 /* Get_AQI_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_AQI_Watch_AppTests.swift; sourceTree = "<group>"; };
+		3DDCC216297DD6B2009E19C8 /* Get AQI Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Get AQI Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DDCC21A297DD6B2009E19C8 /* Get_AQI_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_AQI_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		3DDCC21C297DD6B2009E19C8 /* Get_AQI_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Get_AQI_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DDCC1F7297DD6B0009E19C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDCC209297DD6B2009E19C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDCC213297DD6B2009E19C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DDCC1ED297DD6AF009E19C8 = {
+			isa = PBXGroup;
+			children = (
+				3DDCC1FE297DD6B0009E19C8 /* Get AQI Watch App */,
+				3DDCC20F297DD6B2009E19C8 /* Get AQI Watch AppTests */,
+				3DDCC219297DD6B2009E19C8 /* Get AQI Watch AppUITests */,
+				3DDCC1F5297DD6B0009E19C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DDCC1F5297DD6B0009E19C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DDCC1F4297DD6B0009E19C8 /* Get AQI.app */,
+				3DDCC1FA297DD6B0009E19C8 /* Get AQI Watch App.app */,
+				3DDCC20C297DD6B2009E19C8 /* Get AQI Watch AppTests.xctest */,
+				3DDCC216297DD6B2009E19C8 /* Get AQI Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DDCC1FE297DD6B0009E19C8 /* Get AQI Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				3DDCC1FF297DD6B0009E19C8 /* Get_AQIApp.swift */,
+				3DDCC201297DD6B0009E19C8 /* ContentView.swift */,
+				3DDCC203297DD6B2009E19C8 /* Assets.xcassets */,
+				3DDCC205297DD6B2009E19C8 /* Preview Content */,
+			);
+			path = "Get AQI Watch App";
+			sourceTree = "<group>";
+		};
+		3DDCC205297DD6B2009E19C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3DDCC206297DD6B2009E19C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3DDCC20F297DD6B2009E19C8 /* Get AQI Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DDCC210297DD6B2009E19C8 /* Get_AQI_Watch_AppTests.swift */,
+			);
+			path = "Get AQI Watch AppTests";
+			sourceTree = "<group>";
+		};
+		3DDCC219297DD6B2009E19C8 /* Get AQI Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DDCC21A297DD6B2009E19C8 /* Get_AQI_Watch_AppUITests.swift */,
+				3DDCC21C297DD6B2009E19C8 /* Get_AQI_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "Get AQI Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DDCC1F3297DD6B0009E19C8 /* Get AQI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DDCC224297DD6B3009E19C8 /* Build configuration list for PBXNativeTarget "Get AQI" */;
+			buildPhases = (
+				3DDCC1F2297DD6B0009E19C8 /* Resources */,
+				3DDCC223297DD6B3009E19C8 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DDCC1FD297DD6B0009E19C8 /* PBXTargetDependency */,
+			);
+			name = "Get AQI";
+			productName = "Get AQI";
+			productReference = 3DDCC1F4297DD6B0009E19C8 /* Get AQI.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		3DDCC1F9297DD6B0009E19C8 /* Get AQI Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DDCC220297DD6B3009E19C8 /* Build configuration list for PBXNativeTarget "Get AQI Watch App" */;
+			buildPhases = (
+				3DDCC1F6297DD6B0009E19C8 /* Sources */,
+				3DDCC1F7297DD6B0009E19C8 /* Frameworks */,
+				3DDCC1F8297DD6B0009E19C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Get AQI Watch App";
+			productName = "Get AQI Watch App";
+			productReference = 3DDCC1FA297DD6B0009E19C8 /* Get AQI Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DDCC20B297DD6B2009E19C8 /* Get AQI Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DDCC227297DD6B3009E19C8 /* Build configuration list for PBXNativeTarget "Get AQI Watch AppTests" */;
+			buildPhases = (
+				3DDCC208297DD6B2009E19C8 /* Sources */,
+				3DDCC209297DD6B2009E19C8 /* Frameworks */,
+				3DDCC20A297DD6B2009E19C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DDCC20E297DD6B2009E19C8 /* PBXTargetDependency */,
+			);
+			name = "Get AQI Watch AppTests";
+			productName = "Get AQI Watch AppTests";
+			productReference = 3DDCC20C297DD6B2009E19C8 /* Get AQI Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DDCC215297DD6B2009E19C8 /* Get AQI Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DDCC22A297DD6B3009E19C8 /* Build configuration list for PBXNativeTarget "Get AQI Watch AppUITests" */;
+			buildPhases = (
+				3DDCC212297DD6B2009E19C8 /* Sources */,
+				3DDCC213297DD6B2009E19C8 /* Frameworks */,
+				3DDCC214297DD6B2009E19C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DDCC218297DD6B2009E19C8 /* PBXTargetDependency */,
+			);
+			name = "Get AQI Watch AppUITests";
+			productName = "Get AQI Watch AppUITests";
+			productReference = 3DDCC216297DD6B2009E19C8 /* Get AQI Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DDCC1EE297DD6AF009E19C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3DDCC1F3297DD6B0009E19C8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3DDCC1F9297DD6B0009E19C8 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3DDCC20B297DD6B2009E19C8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3DDCC1F9297DD6B0009E19C8;
+					};
+					3DDCC215297DD6B2009E19C8 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3DDCC1F9297DD6B0009E19C8;
+					};
+				};
+			};
+			buildConfigurationList = 3DDCC1F1297DD6AF009E19C8 /* Build configuration list for PBXProject "Get AQI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DDCC1ED297DD6AF009E19C8;
+			productRefGroup = 3DDCC1F5297DD6B0009E19C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DDCC1F3297DD6B0009E19C8 /* Get AQI */,
+				3DDCC1F9297DD6B0009E19C8 /* Get AQI Watch App */,
+				3DDCC20B297DD6B2009E19C8 /* Get AQI Watch AppTests */,
+				3DDCC215297DD6B2009E19C8 /* Get AQI Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DDCC1F2297DD6B0009E19C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDCC1F8297DD6B0009E19C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDCC207297DD6B2009E19C8 /* Preview Assets.xcassets in Resources */,
+				3DDCC204297DD6B2009E19C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDCC20A297DD6B2009E19C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDCC214297DD6B2009E19C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DDCC1F6297DD6B0009E19C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDCC202297DD6B0009E19C8 /* ContentView.swift in Sources */,
+				3DDCC200297DD6B0009E19C8 /* Get_AQIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDCC208297DD6B2009E19C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDCC211297DD6B2009E19C8 /* Get_AQI_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DDCC212297DD6B2009E19C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DDCC21B297DD6B2009E19C8 /* Get_AQI_Watch_AppUITests.swift in Sources */,
+				3DDCC21D297DD6B2009E19C8 /* Get_AQI_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DDCC1FD297DD6B0009E19C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DDCC1F9297DD6B0009E19C8 /* Get AQI Watch App */;
+			targetProxy = 3DDCC1FC297DD6B0009E19C8 /* PBXContainerItemProxy */;
+		};
+		3DDCC20E297DD6B2009E19C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DDCC1F9297DD6B0009E19C8 /* Get AQI Watch App */;
+			targetProxy = 3DDCC20D297DD6B2009E19C8 /* PBXContainerItemProxy */;
+		};
+		3DDCC218297DD6B2009E19C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DDCC1F9297DD6B0009E19C8 /* Get AQI Watch App */;
+			targetProxy = 3DDCC217297DD6B2009E19C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3DDCC21E297DD6B3009E19C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DDCC21F297DD6B3009E19C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		3DDCC221297DD6B3009E19C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Get AQI Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = S4D83HCYW4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Get AQI";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browser.viewer.Get-AQI.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		3DDCC222297DD6B3009E19C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Get AQI Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = S4D83HCYW4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Get AQI";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browser.viewer.Get-AQI.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		3DDCC225297DD6B3009E19C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S4D83HCYW4;
+				INFOPLIST_KEY_CFBundleDisplayName = "Get AQI";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "App uses speech recognition for entering your location.";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browser.viewer.Get-AQI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,4";
+			};
+			name = Debug;
+		};
+		3DDCC226297DD6B3009E19C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S4D83HCYW4;
+				INFOPLIST_KEY_CFBundleDisplayName = "Get AQI";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "App uses speech recognition for entering your location.";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browser.viewer.Get-AQI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,4";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DDCC228297DD6B3009E19C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S4D83HCYW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browser.viewer.Get-AQI-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Get AQI Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Get AQI Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		3DDCC229297DD6B3009E19C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S4D83HCYW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browser.viewer.Get-AQI-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Get AQI Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Get AQI Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		3DDCC22B297DD6B3009E19C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S4D83HCYW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browser.viewer.Get-AQI-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Get AQI Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		3DDCC22C297DD6B3009E19C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S4D83HCYW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.browser.viewer.Get-AQI-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Get AQI Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DDCC1F1297DD6AF009E19C8 /* Build configuration list for PBXProject "Get AQI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DDCC21E297DD6B3009E19C8 /* Debug */,
+				3DDCC21F297DD6B3009E19C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DDCC220297DD6B3009E19C8 /* Build configuration list for PBXNativeTarget "Get AQI Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DDCC221297DD6B3009E19C8 /* Debug */,
+				3DDCC222297DD6B3009E19C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DDCC224297DD6B3009E19C8 /* Build configuration list for PBXNativeTarget "Get AQI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DDCC225297DD6B3009E19C8 /* Debug */,
+				3DDCC226297DD6B3009E19C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DDCC227297DD6B3009E19C8 /* Build configuration list for PBXNativeTarget "Get AQI Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DDCC228297DD6B3009E19C8 /* Debug */,
+				3DDCC229297DD6B3009E19C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DDCC22A297DD6B3009E19C8 /* Build configuration list for PBXNativeTarget "Get AQI Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DDCC22B297DD6B3009E19C8 /* Debug */,
+				3DDCC22C297DD6B3009E19C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DDCC1EE297DD6AF009E19C8 /* Project object */;
+}
